@@ -11,7 +11,6 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Linear Regression
 
 A linear regression model has been used to analyse the dataset provided.
-A plot 
 
 ```{r ,echo=FALSE}
 
