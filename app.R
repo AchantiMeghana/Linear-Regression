@@ -3,7 +3,7 @@ library(shiny)
 library(vroom)
 library(rmarkdown)
 
-# Define UI for application that draws a histogram
+# Define UI for application 
 ui <- fluidPage(
   
 #Title
@@ -49,7 +49,7 @@ ui <- fluidPage(
 
 )   
 
-# Define server logic required to draw a histogram
+# Define server logic 
 server <- function(input, output,session) {
  
 #storing dataset in reactive variable
@@ -95,9 +95,6 @@ result <- reactive({
                 ~as.numeric(unlist(data()[,input$x])))
   summary(lmdata)
 })
-
-#Display the result
-output$display_result <- renderPrint(result())
 
 #Downloading the report
 output$download <- downloadHandler(
