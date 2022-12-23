@@ -1,0 +1,32 @@
+---
+title: "report"
+output: html_document
+date: "2022-12-23"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Linear Regression
+
+A linear regression model has been used to analyse the dataset provided.
+A plot 
+
+```{r ,echo=FALSE}
+
+result()
+```
+
+# Regression Model 
+
+
+
+```{r  echo=FALSE}
+ plot(as.numeric(unlist(data()[,input$x]))
+         ,as.numeric(unlist(data()[,input$y]))
+         ,xlab = input$x, ylab = input$y,col = "darkred")
+    abline(lm(as.numeric(unlist(data()[,input$y]))
+              ~as.numeric(unlist(data()[,input$x]))))
+```
+
