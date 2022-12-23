@@ -13,7 +13,7 @@ ui <- fluidPage(
     column(3,
 
 #Upload dataset
-           fileInput("upload","Upload your dataset",multiple= FALSE,
+           fileInput("upload","Upload your dataset (.csv or .tsv )",multiple= FALSE,
                      accept = c(".csv",".tsv")),
                       
 # Select independent variable x           
