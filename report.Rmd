@@ -10,7 +10,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Linear Regression
 
-A linear regression model has been used to analyse the dataset provided.
+A linear regression model has been used to analyse the dataset provided. 
+The coordinates x, y denote dependent, independent variables respectively.
 
 ```{r ,echo=FALSE}
 
